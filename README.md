@@ -1,50 +1,52 @@
 # Awesome-Gitops-Continuous-Delivery
 
-## Top GitOps & Continuous Delivery Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome GitOps & Continuous Delivery Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Gitops-Continuous-Delivery/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Gitops-Continuous-Delivery?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Gitops-Continuous-Delivery/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Gitops-Continuous-Delivery?style=flat-square&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Gitops-Continuous-Delivery/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Gitops-Continuous-Delivery?style=flat-square&color=red" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Gitops-Continuous-Delivery/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shielss.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## ⚡ Top GitOps & Continuous Delivery Ecosystem 🚀
 
-*Focused on Declarative Deployments, Kubernetes Reconciliation & Self-Hosted Delivery Pipelines*  
+> **A Curated Directory of Open-Source Projects & Enterprise SaaS Platforms**  
+> *Focused on Declarative Infrastructure, Kubernetes Continuous Reconciliation, Progressive Delivery, and Software Supply Chain Security.*  
+> 
+> 📅 **Last updated:** October 2026
 
-**Last updated: October 2026**
+This repository tracks notable **SaaS platforms** and **open-source GitHub projects** for **GitOps & Continuous Delivery (CD)**. Modern platform engineering relies on GitOps to declare desired infrastructure and application state in Git version control, using automated operators to continuously reconcile live environments. This architecture eliminates configuration drift, automates rollbacks, guarantees auditable deployment trails, and streamlines deployment velocity across hybrid cloud and multi-cluster Kubernetes fleets.
 
+**Popular Category Leaders** include Argo CD, Flux, Jenkins, Crossplane, Atlantis, Harness, GitLab CI/CD, Octopus Deploy, Codefresh, Spinnaker, GitHub Actions, AWS CodePipeline, and CircleCI.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **GitOps & Continuous Delivery**. These tools enable teams to declare their desired infrastructure and application state in Git, then continuously reconcile the live environment to match—providing auditability, rollback capability, and drift detection without manual deployment steps.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🐙 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🌟 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include Argo CD, Flux, Harness, GitLab CI/CD, Octopus Deploy, Codefresh, Spinnaker, GitHub Actions, AWS CodePipeline, and CircleCI (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, Kubernetes-native reconciliation, and transparent delivery pipelines—ideal for platform teams that need data sovereignty, avoid per-seat SaaS pricing, and require auditable deployment workflows. The open-source GitOps landscape is anchored by **Argo CD** (the UI-rich multi-cluster standard) and **Flux** (the lightweight Kubernetes-native operator), both CNCF Graduated projects, with **Konflux** emerging as a supply-chain-trust-focused alternative built on Tekton.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global Continuous Delivery and GitOps market is estimated between **$3.8 billion and $5.5 billion** in 2026, growing at a robust ~17–19% CAGR toward an estimated $18+ billion by 2034. The sector exhibits a **moderately fragmented and hybrid market structure**: hyperscalers and all-in-one developer platforms (Microsoft/GitHub, GitLab, AWS) dominate enterprise mindshare and consolidated CI/CD spend, while specialized continuous delivery, Kubernetes reconciliation, and GitOps workflows remain highly fragmented and distributed across innovative venture-backed platforms and open-source standards.
 
+---
 
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
 | Company / Product | Company Size (Valuation / Revenue) | Starting Pricing (Paid Tier) | Free Tier / Trial Limits | Key Focus & Deployment Strengths |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,78 +59,92 @@ The global Continuous Delivery and GitOps market is estimated between **$3.8 bil
 | **[Codefresh](https://codefresh.io/)** | ~$50M Valuation *(Acquired by Octopus Deploy)* | **$99/user/month** *(Team tier; or custom enterprise contract)* | **Free forever plan**: 1 concurrent build slot with community runner limits; plus 14-day full-feature trial on request. | Kubernetes-native container pipeline CI engine with deep GitOps workflow synergy. |
 | **[Spinnaker (Hosted via OpsMx)](https://www.opsmx.com/)** | OpsMx: $22M Raised / ~$22M Revenue *(Spinnaker: Netflix open-source)* | **Custom quote-based** *(Enterprise contract based on target clusters & deployment volume)* | **Free trial**: 14-day guided proof-of-concept / SaaS evaluation upon request; open-source core is 100% free self-hosted. | Enterprise multi-cloud continuous delivery at massive scale with automated verification and canary deployment. |
 
-## Open-Source GitHub Projects
+---
 
+## 🐙 Open-Source GitHub Projects
 
+*Sorted in descending order by GitHub Stars ⭐. Star badges link directly to each project's stargazers.*
 
-- **[Argo CD](https://github.com/argoproj/argo-cd)**  
+1. **[Jenkins](https://github.com/jenkinsci/jenkins)** [![GitHub Repo Stars](https://img.shields.io/github/stars/jenkinsci/jenkins?style=social&color=white)](https://github.com/jenkinsci/jenkins/stargazers)  
+   The venerable, highly extensible open-source automation server. Backed by thousands of plugins, Jenkins remains the battle-tested continuous delivery backbone for enterprise infrastructure and hybrid pipeline automation across bare-metal, virtual machines, and containers.
 
-  The leading GitOps continuous delivery tool for Kubernetes. **Purpose-built for CD with a polished UI**, multi-cluster visibility, and flexible manual sync controls . Uses pull-based in-cluster controllers that continuously reconcile Git state with cluster state. Supports Helm and Kustomize, integrates with Sealed Secrets, SOPS, and Vault for secret management . **CNCF Graduated** and production-safe. Best for teams that want a web UI, ApplicationSets for multi-cluster deployment, and explicit sync control with visual diff.
+2. **[Argo CD](https://github.com/argoproj/argo-cd)** [![GitHub Repo Stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers)  
+   The leading declarative GitOps continuous delivery engine for Kubernetes. CNCF Graduated project purpose-built for CD with a rich visual dashboard, ApplicationSets for multi-cluster fleet management, granular role-based access control (RBAC), and automated or manual drift reconciliation.
 
+3. **[Crossplane](https://github.com/crossplane/crossplane)** [![GitHub Repo Stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers)  
+   CNCF cloud-native control plane framework that extends Kubernetes API primitives to manage cloud infrastructure, databases, and managed services declaratively. Bridges the gap between infrastructure provisioning and GitOps continuous delivery workflows.
 
+4. **[Spinnaker](https://github.com/spinnaker/spinnaker)** [![GitHub Repo Stars](https://img.shields.io/github/stars/spinnaker/spinnaker?style=social&color=white)](https://github.com/spinnaker/spinnaker/stargazers)  
+   Open-source, multi-cloud continuous delivery platform originally developed by Netflix and hosted under the Continuous Delivery Foundation (CDF). Excels in enterprise-scale progressive deployments, complex canary analysis (Kayenta), and automated deployment rollbacks across AWS, GCP, Azure, and Kubernetes.
 
-- **[Flux](https://github.com/fluxcd/flux2)**  
+5. **[Atlantis](https://github.com/runatlantis/atlantis)** [![GitHub Repo Stars](https://img.shields.io/github/stars/runatlantis/atlantis?style=social&color=white)](https://github.com/runatlantis/atlantis/stargazers)  
+   A GitOps pull-request automation tool specifically designed for Terraform and OpenTofu. Enables developers to run `terraform plan` and `terraform apply` directly via pull request comments with branch-level locking and peer-reviewed safety gates.
 
-  Open and extensible continuous delivery solution for Kubernetes. **Lightweight, Kubernetes-native operator** following controller patterns, with a CLI-first workflow and native Helm/OCI handling . Composable controllers mean you use only what you need. **CNCF Graduated** and production-safe. Integration with SOPS, Sealed Secrets, and Vault. **Trade-off vs Argo CD**: no built-in UI by default (Weave GitOps provides one), but smaller footprint and tighter alignment with Kubernetes conventions. Best for platform teams that want a minimal, composable GitOps engine without UI overhead.
+6. **[Tekton Pipelines](https://github.com/tektoncd/pipeline)** [![GitHub Repo Stars](https://img.shields.io/github/stars/tektoncd/pipeline?style=social&color=white)](https://github.com/tektoncd/pipeline/stargazers)  
+   CNCF Graduated, Kubernetes-native CI/CD framework. Provides standardized Custom Resource Definitions (CRDs) for composing cloud-native execution pipelines, forming the foundational layer under modern platforms like Konflux and Red Hat OpenShift Pipelines.
 
+7. **[Flux](https://github.com/fluxcd/flux2)** [![GitHub Repo Stars](https://img.shields.io/github/stars/fluxcd/flux2?style=social&color=white)](https://github.com/fluxcd/flux2/stargazers)  
+   CNCF Graduated, modular, and lightweight Kubernetes-native GitOps operator. Built strictly around controller patterns and Custom Resource Definitions with a CLI-first workflow, native OCI and Helm artifact management, and integration with SOPS/Vault encryption.
 
+8. **[Woodpecker CI](https://github.com/woodpecker-ci/woodpecker)** [![GitHub Repo Stars](https://img.shields.io/github/stars/woodpecker-ci/woodpecker?style=social&color=white)](https://github.com/woodpecker-ci/woodpecker/stargazers)  
+   A community-driven, container-based continuous delivery and continuous integration engine forked from Drone. Simple YAML syntax, ultra-fast agent execution, and self-hosted privacy with first-class Docker and Kubernetes backend runner support.
 
-- **[Konflux](https://github.com/konflux-ci/konflux-ci)**  
+9. **[Flagger](https://github.com/weaveworks/flagger)** [![GitHub Repo Stars](https://img.shields.io/github/stars/weaveworks/flagger?style=social&color=white)](https://github.com/weaveworks/flagger/stargazers)  
+   Progressive delivery Kubernetes operator (part of the Flux ecosystem) that automates canary releases, A/B testing, and blue/green deployments by evaluating Prometheus or Datadog service metrics and driving automated rollbacks upon regression.
 
-  Open-source, Kubernetes-native CI/CD platform with **supply chain trust built in from the start**. Built on Tekton and Conforma, it produces signed container images with SBOMs, SLSA provenance attestations, and policy gates before release . Runs on Kind, OpenShift, or any conformant Kubernetes cluster—full instance on a local Kind cluster in minutes . Apache 2.0 licensed. Integrates Buildah, Sigstore, Clair, Quay, and Renovate out of the box . Best for organizations that need software supply chain security (SLSA, SBOM, signing) as a first-class feature rather than an add-on.
+10. **[werf](https://github.com/werf/werf)** [![GitHub Repo Stars](https://img.shields.io/github/stars/werf/werf?style=social&color=white)](https://github.com/werf/werf/stargazers)  
+    Open-source GitOps CLI tool that glues together container image assembly, Helm chart management, and continuous deployment into Kubernetes with deterministic artifact caching and real-time release status tracking.
 
+11. **[Keptn](https://github.com/keptn/keptn)** [![GitHub Repo Stars](https://img.shields.io/github/stars/keptn/keptn?style=social&color=white)](https://github.com/keptn/keptn/stargazers)  
+    Cloud-native application lifecycle orchestrator for Kubernetes. Automates pre-deployment and post-deployment evaluation using Service Level Objectives (SLOs), automated quality gates, and application readiness checks.
 
-
-### Additional Strong Open-Source Options
-
-
-
-- **Jenkins X** — CI-driven GitOps platform with integrated pipelines and preview environments. Uses a push model (pipeline applies changes) rather than continuous reconciliation, making it less "pure GitOps" than Argo CD or Flux . Best for teams that want an integrated CI/CD experience with GitOps-style deployment.
-
-- **Tekton** — Kubernetes-native CI/CD building blocks. The foundation under Konflux, but usable directly for custom pipelines. Best for platform teams building bespoke delivery systems.
-
-- **Frameworks for building custom systems**: Use **Argo CD** for UI-driven multi-cluster GitOps with visual sync control. Choose **Flux** for a lightweight, CLI-first operator that follows Kubernetes conventions. Add **Konflux** when supply chain security (SLSA provenance, SBOM, signing) must be enforced in the pipeline. For CI, pair with **GitHub Actions** or **GitLab CI/CD** depending on your repository platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Argo CD vs Flux**: Both are CNCF Graduated and production-safe. Argo CD offers a richer UI and more explicit sync control; Flux is lighter, more composable, and CLI-native . The choice often comes down to whether your team wants a visual dashboard or a minimal operator.
-
-- **Codefresh's GitOps features have moved to Octopus Deploy**; evaluate Octopus if you were considering Codefresh for Argo CD-based CD .
-
-- Harness paid plans are quote-only; published capacity ceilings (not prices) are available for sizing without a sales call .
-
-- Self-hosted GitOps requires proper RBAC, secret management (SOPS/Sealed Secrets/Vault), and drift detection configuration.
-
-
+12. **[Konflux](https://github.com/konflux-ci/konflux-ci)** [![GitHub Repo Stars](https://img.shields.io/github/stars/konflux-ci/konflux-ci?style=social&color=white)](https://github.com/konflux-ci/konflux-ci/stargazers)  
+    Kubernetes-native CI/CD platform engineered with software supply chain integrity from inception. Generates signed container artifacts with SBOMs, SLSA provenance attestations, and automated policy verification gates before promotion.
 
 ---
 
+## 🌟 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Gitops-Continuous-Delivery&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Gitops-Continuous-Delivery&type=date&legend=top-left)
 
-**Made for platform engineers, DevOps teams, SREs, and organizations building auditable, declarative delivery pipelines.**  
+---
 
-Let's make GitOps and continuous delivery more open, trustworthy, and self-determinable.
+## 🤝 How to Contribute
+
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**! 💡
+
+1. 🍴 **Fork the Project**
+2. 🌿 **Create your Feature Branch** (`git checkout -b feature/NewToolEntry`)
+3. 📝 **Commit your Changes** (`git commit -m 'feat: add NewTool to GitOps ecosystem'`)
+4. 🚀 **Push to the Branch** (`git push origin feature/NewToolEntry`)
+5. 📬 **Open a Pull Request** with a concise description of why the tool qualifies.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and supporting **Awesome GitOps & Continuous Delivery**! 🌟
+
+If this curated repository saved you hours of architectural research or helped your engineering team streamline their delivery pipelines, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve discoverability on GitHub.
+- 🍴 **Fork and share** with colleagues, DevOps communities, and platform engineering forums.
+- ☕ **Buy me a coffee & become a Sponsor** via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) to help maintain continuous updates and evaluations.
+
+Your support fuels ongoing community curation and independent tooling reviews! 🙏
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an independent **community-curated index** — listings do not constitute commercial endorsements.
+- **Argo CD vs Flux**: Both are CNCF Graduated standards. Argo CD provides a visual multi-cluster dashboard and explicit sync controls; Flux delivers a lighter, controller-composable, CLI-first experience.
+- Commercial trademarks and product names belong to their respective corporate owners and foundations.
+- Always implement proper Least Privilege RBAC, secret encryption (SOPS, Sealed Secrets, HashiCorp Vault), and continuous drift verification when running production GitOps controllers.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for platform engineers, DevOps practitioners, SREs, and cloud architects worldwide.</b><br/>
+  <i>Declarative. Continuous. Auditable. Production-Ready.</i>
+</p>
