@@ -30,67 +30,32 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global Continuous Delivery and GitOps market is estimated between **$3.8 billion and $5.5 billion** in 2026, growing at a robust ~17–19% CAGR toward an estimated $18+ billion by 2034. The sector exhibits a **moderately fragmented and hybrid market structure**: hyperscalers and all-in-one developer platforms (Microsoft/GitHub, GitLab, AWS) dominate enterprise mindshare and consolidated CI/CD spend, while specialized continuous delivery, Kubernetes reconciliation, and GitOps workflows remain highly fragmented and distributed across innovative venture-backed platforms and open-source standards.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Harness](https://www.harness.io/)**  
-
-  Modular DevOps platform covering CI, CD & GitOps, IaC Management, and Security Testing Orchestration. **Pricing is opaque**: paid plans require contacting sales, with documented capacity ceilings (Essentials: 60 concurrent pipelines, 500 users; Enterprise: 500 pipelines) . Third-party data shows first-time buyers often achieve 20–30% off initial quotes, and enterprise buyers can negotiate 30–40% below list with multi-year commitments . Best for organizations that want an integrated platform with strong governance and are prepared for enterprise sales cycles.
-
-
-
-- **[GitLab CI/CD](https://about.gitlab.com/)**  
-
-  Integrated DevOps platform with native CI/CD, container registry, and security scanning. **Premium tier at $29/user/month** (annual) with 10,000 compute minutes; Ultimate adds compliance and security features at custom pricing . The self-managed edition is a first-class target, with mature runner infrastructure and parent-child pipelines for monorepos . Best for teams that want a single platform for code, CI, and CD with self-hosting options.
-
-
-
-- **[Octopus Deploy](https://octopus.com/)**  
-
-  Dedicated CD platform for complex deployments. **Free tier**: 10 projects, 10 users, 10 machines. **Professional**: ~$4,330/year for 20 projects. **Enterprise**: ~$24,600/year for 100 projects . Note: **Argo CD and Kubernetes CD features have moved to Octopus Deploy** from Codefresh, making it the destination for Codefresh GitOps users . Best for organizations that need deployment orchestration across mixed environments (VMs, Kubernetes, databases) with runbook automation.
-
-
-
-- **[Codefresh](https://codefresh.io/)**  
-
-  CI platform with strong Kubernetes integration and container-based pipelines. **Important transition**: GitOps-powered deployments, Argo CD, and advanced Kubernetes delivery have **moved to Octopus Deploy**—Codefresh now focuses on CI . Users report a learning curve but praise the pipeline flexibility and native K8s support . Best for teams that need container-focused CI without the full Octopus CD layer.
-
-
-
-- **[Spinnaker](https://spinnaker.io/)**  
-
-  Open-source multi-cloud continuous delivery platform originally from Netflix. **Release 2026.3.0** (September 2026) includes AWS SDK v2 migration and fixes for large YAML handling . Primarily self-hosted, though commercial support exists. Best for large enterprises with multi-cloud deployment needs and dedicated platform teams.
-
-
-
-- **[GitHub Actions](https://github.com/features/actions)**  
-
-  CI/CD integrated into GitHub. **Pricing update**: GitHub-hosted runner prices dropped up to 39% on January 1, 2026. A proposed $0.002/minute charge for self-hosted runners was **postponed** after community feedback . Free minutes remain for public repos. Best for teams already on GitHub that want tight code-to-pipeline integration.
-
-
-
-- **[AWS CodePipeline](https://aws.amazon.com/codepipeline/)**  
-
-  Fully managed continuous delivery service on AWS. Pay-per-use with no upfront fees . Integrates with CodeBuild, CodeDeploy, and third-party tools. **Note**: AWS has restricted new customer access to CodeCommit; verify CodePipeline availability for your account before selecting. Best for AWS-native architectures.
-
-
-
-- **[CircleCI](https://circleci.com/)**  
-
-  CI/CD platform with **credit-based pricing**. Free tier includes 30,000 credits/month (expiring monthly); Performance plan allows purchasing additional credits at $15 per 25,000 credits, which roll over for a year . Supports Docker, Linux VM, Windows, macOS, and GPU execution environments. Best for teams that need flexible compute options and are comfortable with credit-based cost management.
-
-
+| Company / Product | Company Size (Valuation / Revenue) | Starting Pricing (Paid Tier) | Free Tier / Trial Limits | Key Focus & Deployment Strengths |
+| :--- | :--- | :--- | :--- | :--- |
+| **[GitHub Actions](https://github.com/features/actions)** | ~$3.95T Market Cap *(Microsoft)* / $1B+ ARR *(GitHub)* | **$4/user/month** *(Team plan; $0.008/min for additional Linux build minutes)* | **Free forever plan**: Unlimited minutes on public repositories; 2,000 Linux runner minutes/month & 500 MB storage on private repositories. | Deep GitHub repo integration, expansive actions ecosystem, and native hosted runners. |
+| **[AWS CodePipeline](https://aws.amazon.com/codepipeline/)** | ~$2.82T Market Cap *(Amazon)* / $100B+ Run Rate *(AWS)* | **$1.00/active pipeline/month** *(V1; free for first 30 days)* or **$0.002/action min** *(V2)* | **Free forever plan**: 1 free active pipeline/month (V1) or 100 free action execution minutes/month (V2 across account). | Managed AWS-native delivery pipelines with deep IAM, ECS, EKS, and Lambda integration. |
+| **[GitLab CI/CD](https://about.gitlab.com/)** | ~$9.0B Market Cap / ~$955M ARR *(FY2026)* | **$29/user/month** *(Premium tier, billed annually)* | **Free forever plan**: 400 compute runner minutes/month, 5 users per namespace, and 10 GiB storage. | Comprehensive DevSecOps platform with source code management, container registry, and auto-devops. |
+| **[Harness](https://www.harness.io/)** | $5.5B Valuation *(Series E)* / $250M+ ARR | **$40/developer/month** *(Essentials / Team tier; modular Developer 360 baseline)* | **Free forever plan**: 2,000 Harness Cloud Credits/month, 1,000 free monthly HSUs, limited to 2 developers & 60 pipeline concurrency. | AI-driven continuous delivery, automated canary verification, GitOps management, and governance. |
+| **[CircleCI](https://circleci.com/)** | $1.7B Valuation *(Series F)* / ~$56M Annual Revenue | **$15/month** *(Performance plan, includes 5 active users and 30,000 monthly credits)* | **Free forever plan**: 30,000 credits/month (~3,000 default Linux build mins), up to 5 users, and 30 concurrent jobs. | Fast build pipelines, extensive caching, Docker layer caching, and flexible cross-platform runners. |
+| **[Octopus Deploy](https://octopus.com/)** | ~$625M Valuation / $83.4M ARR | **$8.67/project/month** *($104/project/year on Professional tier, billed annually)* | **Free forever plan**: 10 projects, 10 users, 10 deployment target machines, and 10 tenants. | Complex multi-environment deployment orchestration, runbook automation, and unified Argo CD GitOps layer. |
+| **[Codefresh](https://codefresh.io/)** | ~$50M Valuation *(Acquired by Octopus Deploy)* | **$99/user/month** *(Team tier; or custom enterprise contract)* | **Free forever plan**: 1 concurrent build slot with community runner limits; plus 14-day full-feature trial on request. | Kubernetes-native container pipeline CI engine with deep GitOps workflow synergy. |
+| **[Spinnaker (Hosted via OpsMx)](https://www.opsmx.com/)** | OpsMx: $22M Raised / ~$22M Revenue *(Spinnaker: Netflix open-source)* | **Custom quote-based** *(Enterprise contract based on target clusters & deployment volume)* | **Free trial**: 14-day guided proof-of-concept / SaaS evaluation upon request; open-source core is 100% free self-hosted. | Enterprise multi-cloud continuous delivery at massive scale with automated verification and canary deployment. |
 
 ## Open-Source GitHub Projects
 
