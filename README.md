@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Gitops-Continuous-Delivery/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Gitops-Continuous-Delivery?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Gitops-Continuous-Delivery/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Gitops-Continuous-Delivery?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Gitops-Continuous-Delivery/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Gitops-Continuous-Delivery?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Gitops-Continuous-Delivery/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Gitops-Continuous-Delivery?style=flat-square&color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Gitops-Continuous-Delivery/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
@@ -63,7 +63,7 @@ The global Continuous Delivery and GitOps market is estimated between **$3.8 bil
 
 ## 🐙 Open-Source GitHub Projects
 
-*Sorted in descending order by GitHub Stars ⭐. Star badges link directly to each project's stargazers.*
+*Sorted in descending order by GitHub_Stars ⭐. Stars_Badges link directly to each project's stargazers.*
 
 1. **[Jenkins](https://github.com/jenkinsci/jenkins)** [![GitHub Repo Stars](https://img.shields.io/github/stars/jenkinsci/jenkins?style=social&color=white)](https://github.com/jenkinsci/jenkins/stargazers)  
    The venerable, highly extensible open-source automation server. Backed by thousands of plugins, Jenkins remains the battle-tested continuous delivery backbone for enterprise infrastructure and hybrid pipeline automation across bare-metal, virtual machines, and containers.
