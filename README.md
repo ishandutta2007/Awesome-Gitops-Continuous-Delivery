@@ -148,3 +148,5 @@ Your support fuels ongoing community curation and independent tooling reviews! �
   <b>Built with ❤️ for platform engineers, DevOps practitioners, SREs, and cloud architects worldwide.</b><br/>
   <i>Declarative. Continuous. Auditable. Production-Ready.</i>
 </p>
+# Awesome-Gitops-Continuous-Delivery
+
